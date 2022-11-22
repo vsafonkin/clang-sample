@@ -27,7 +27,7 @@ jobs:
     #   run: make distcheck
 
     - name: Build sample
-      run: gcc main.c -o main
+      run: gcc main.c helpers.c -o dist/main -v
 
     - name: Run sample
-      run: ./main
+      run: dist/main

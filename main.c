@@ -1,17 +1,13 @@
-//
-//  main.c
-//  sample-cli-project
-//
-//  Created by Vladimir Safonkin on 08.11.2022.
-//
-
 #include <stdio.h>
 #include <stdlib.h>
+#include "helpers.h"
 
 int main(void) {
     int a = 17;
     int b = 31;
-    printf("%s\n", "Hello");
+    printf("%s\n", "Hello, Xcode");
     printf("a = %d, b = %d\n", a, b);
+    swap(a, b);
+    printf("a = %d, b = %d\n", a, b);    
     return EXIT_SUCCESS;
 }
