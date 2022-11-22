@@ -7,9 +7,13 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
+  Main build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ 'ubuntu-latest', 'macos-latest' ]
+    name: Build and run C/C++ - ${{ matrix.os }}
 
     steps:
     - uses: actions/checkout@v3
