@@ -22,8 +22,8 @@ jobs:
     # - name: make distcheck
     #   run: make distcheck
 
-    - name: build sample
+    - name: Build sample
       run: gcc main.c -o main
 
-    - name: run sample
+    - name: Run sample
       run: ./main
