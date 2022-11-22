@@ -1,1 +1,1 @@
-# clang-sample
+### C/C++ learning samples
