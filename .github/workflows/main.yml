@@ -13,7 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ 'ubuntu-latest', 'macos-latest' ]
-    name: Build and run C/C++ - ${{ matrix.os }}
+    name: Build and run C/C++ ${{ matrix.os }}
 
     steps:
     - uses: actions/checkout@v3
