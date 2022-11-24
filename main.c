@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "helpers.h"
+
+
+void testswap(int *, int *);
 
 int main(void) {
     int a = 17;
@@ -8,7 +10,15 @@ int main(void) {
     int c = 5;
     printf("%s\n", "Hello");
     printf("a = %d, b = %d\n", a, b);
-    swap(&a, &b);
+    testswap(&a, &b);
     printf("a = %d, b = %d\n", a, b);    
     return EXIT_SUCCESS;
+}
+
+void testswap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+    printf("swap: a = %d, b = %d\n", *a, *b);
+    return;
 }
