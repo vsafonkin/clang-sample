@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <stdbool.h>
 
 void testswap(int *, int *);
 
@@ -13,6 +13,7 @@ int main(void) {
     int a = 17;
     int b = 31;
     int c = 5;
+    bool flag = false;
     printf("a = %d, b = %d\n", a, b);
     testswap(&a, &b);
     printf("a = %d, b = %d\n", a, b);    
