@@ -4,16 +4,15 @@
 
 void testswap(int *, int *);
 
-void test() {
-    printf("test function\n");
+void sayhello() {
+    printf("hello!\n");
 }
 
 int main(void) {
-    test();
+    sayhello();
     int a = 17;
     int b = 31;
     int c = 5;
-    printf("%s\n", "Hello");
     printf("a = %d, b = %d\n", a, b);
     testswap(&a, &b);
     printf("a = %d, b = %d\n", a, b);    
