@@ -4,7 +4,12 @@
 
 void testswap(int *, int *);
 
+void test() {
+    printf("test function\n");
+}
+
 int main(void) {
+    test();
     int a = 17;
     int b = 31;
     int c = 5;
@@ -14,6 +19,7 @@ int main(void) {
     printf("a = %d, b = %d\n", a, b);    
     return EXIT_SUCCESS;
 }
+
 
 void testswap(int *a, int *b) {
     int temp = *a;
