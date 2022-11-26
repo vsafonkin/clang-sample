@@ -2,10 +2,17 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+
+enum day { sun, mon, tue, wed, thu, fri, sat };
+
 void testswap(int *, int *);
 
 void sayhello() {
     printf("hello!\n");
+}
+
+void printline() {
+    printf("-----------------\n");
 }
 
 int main(void) {
@@ -16,7 +23,9 @@ int main(void) {
     bool flag = false;
     printf("a = %d, b = %d\n", a, b);
     testswap(&a, &b);
-    printf("a = %d, b = %d\n", a, b);    
+    printf("a = %d, b = %d\n", a, b);
+    printline();
+    printf("Day: %d\n", sun);
     return EXIT_SUCCESS;
 }
 
