@@ -6,6 +6,7 @@
 enum day { sun, mon, tue, wed, thu, fri, sat };
 
 void testswap(int *, int *);
+void printpointer(int);
 
 void sayhello(void) {
     printf("hello!\n");
@@ -24,11 +25,16 @@ int main(void) {
     printf("a = %d, b = %d\n", a, b);
     testswap(&a, &b);
     printf("a = %d, b = %d\n", a, b);
+    printpointer(a);
     printline();
     printf("Day: %d\n", sun);
     return EXIT_SUCCESS;
 }
 
+void printpointer(int a) {
+    int *pointer = &a;
+    printf("a = %d, pointer %ls \n", a, pointer);
+}
 
 void testswap(int *a, int *b) {
     int temp = *a;
