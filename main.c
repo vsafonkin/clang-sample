@@ -7,11 +7,11 @@ enum day { sun, mon, tue, wed, thu, fri, sat };
 
 void testswap(int *, int *);
 
-void sayhello() {
+void sayhello(void) {
     printf("hello!\n");
 }
 
-void printline() {
+void printline(void) {
     printf("-----------------\n");
 }
 
