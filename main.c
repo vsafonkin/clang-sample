@@ -7,6 +7,7 @@ enum day { sun, mon, tue, wed, thu, fri, sat };
 
 void testswap(int *, int *);
 void printpointer(int);
+void setarray(int);
 
 void sayhello(void) {
     printf("hello!\n");
@@ -28,6 +29,8 @@ int main(void) {
     printpointer(a);
     printline();
     printf("Day: %d\n", sun);
+    printline();
+    setarray(10);
     return EXIT_SUCCESS;
 }
 
