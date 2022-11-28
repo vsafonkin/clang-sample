@@ -13,6 +13,12 @@ enum day
     sat
 };
 
+struct samplestruct
+{
+    int intarray[5];
+    char chararray[10];
+};
+
 void testswap(int *, int *);
 void printpointer(int);
 void setarray(int);
@@ -34,6 +40,13 @@ int main(void)
     printf("Day: %d\n", sun);
     printline();
     setarray(10);
+    printline();
+
+    struct samplestruct test;
+    test.intarray[0] = 123;
+    for (int i = 0; i < 5; i++) {
+        printf("test: %d", test.intarray[i]);
+    }
     return EXIT_SUCCESS;
 }
 
