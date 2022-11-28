@@ -19,7 +19,6 @@ void setarray(int);
 void sayhello(void);
 void printline(void);
 
-
 int main(void)
 {
     sayhello();
