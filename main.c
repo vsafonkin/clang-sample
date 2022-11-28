@@ -33,7 +33,6 @@ int main(void) {
 
 void printpointer(int a) {
     int *pointer = &a;
-    printf("a = %d, pointer %ls \n", a, pointer);
 }
 
 void testswap(int *a, int *b) {
