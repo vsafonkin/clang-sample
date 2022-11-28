@@ -16,16 +16,9 @@ enum day
 void testswap(int *, int *);
 void printpointer(int);
 void setarray(int);
+void sayhello(void);
+void printline(void);
 
-void sayhello(void)
-{
-    printf("hello!\n");
-}
-
-void printline(void)
-{
-    printf("-----------------\n");
-}
 
 int main(void)
 {
@@ -43,6 +36,16 @@ int main(void)
     printline();
     setarray(10);
     return EXIT_SUCCESS;
+}
+
+void sayhello(void)
+{
+    printf("hello!\n");
+}
+
+void printline(void)
+{
+    printf("-----------------\n");
 }
 
 void printpointer(int a)
