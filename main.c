@@ -44,3 +44,12 @@ void testswap(int *a, int *b) {
     printf("swap: a = %d, b = %d\n", *a, *b);
     return;
 }
+
+void setarray(int n) {
+    int array[n];
+    int i;
+    for (i = 0; i < n; i++) {
+        array[i] = i * 10;
+    }
+    printf("array[%d] = %d", i, array[i]);
+}
