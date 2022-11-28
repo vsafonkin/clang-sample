@@ -2,22 +2,33 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-
-enum day { sun, mon, tue, wed, thu, fri, sat };
+enum day
+{
+    sun,
+    mon,
+    tue,
+    wed,
+    thu,
+    fri,
+    sat
+};
 
 void testswap(int *, int *);
 void printpointer(int);
 void setarray(int);
 
-void sayhello(void) {
+void sayhello(void)
+{
     printf("hello!\n");
 }
 
-void printline(void) {
+void printline(void)
+{
     printf("-----------------\n");
 }
 
-int main(void) {
+int main(void)
+{
     sayhello();
     int a = 17;
     int b = 31;
@@ -34,13 +45,15 @@ int main(void) {
     return EXIT_SUCCESS;
 }
 
-void printpointer(int a) {
+void printpointer(int a)
+{
     int *pointer = &a;
     int test = *pointer;
     printf("test = %d\n", test);
 }
 
-void testswap(int *a, int *b) {
+void testswap(int *a, int *b)
+{
     int temp = *a;
     *a = *b;
     *b = temp;
@@ -48,11 +61,12 @@ void testswap(int *a, int *b) {
     return;
 }
 
-void setarray(int n) {
+void setarray(int n)
+{
     int array[n];
-    int i;
-    for (i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         array[i] = i * 10;
+        printf("array[%d] = %d\n", i, array[i]);
     }
-    printf("array[%d] = %d", i, array[i]);
 }
