@@ -55,6 +55,11 @@ int main(void)
     printf("INT_MIN = %d\n", INT_MIN);
     printf("INT_MAX = %d\n", INT_MAX);
     printf("sizeof b: %lu\n", sizeof(b));
+    printline();
+
+    int a = 127;
+    int b = 127 << 1;
+    printf("a = %d, b = %d\n", a, b);
     return EXIT_SUCCESS;
 }
 
