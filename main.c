@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <limits.h>
 
 enum day
 {
@@ -48,6 +49,8 @@ int main(void)
         printf("test: %d\n", test.intarray[i]);
     }
     printline();
+    printf("INT_MIN = %d\n", INT_MIN);
+    printf("INT_MAX = %d\n", INT_MAX);
     printf("sizeof b: %lu\n", sizeof(b));
     return EXIT_SUCCESS;
 }
