@@ -57,8 +57,8 @@ int main(void)
     printf("sizeof b: %lu\n", sizeof(b));
     printline();
 
-    int a = 127;
-    int b = 127 << 1;
+    int d = 127;
+    int ds = 127 << 1;
     printf("a = %d, b = %d\n", a, b);
     return EXIT_SUCCESS;
 }
