@@ -69,7 +69,7 @@ void printpointer(int a)
 {
     int *pointer = &a;
     int test = *pointer;
-    printf("test = %d\n", test);
+    printf("pointer = %X\n", pointer);
 }
 
 void testswap(int *a, int *b)
