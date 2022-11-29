@@ -3,6 +3,8 @@
 #include <stdbool.h>
 #include <limits.h>
 
+const int MAGIC = 123;
+
 enum day
 {
     sun,
@@ -29,6 +31,7 @@ void printline(void);
 int main(void)
 {
     sayhello();
+    printf("Magic const: %d", MAGIC);
     int a = 17;
     int b = 31;
     int c = 5;
