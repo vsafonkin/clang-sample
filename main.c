@@ -47,6 +47,8 @@ int main(void)
     for (int i = 0; i < 5; i++) {
         printf("test: %d\n", test.intarray[i]);
     }
+    printline();
+    printf("sizeof b: %lu\n", sizeof(b));
     return EXIT_SUCCESS;
 }
 
