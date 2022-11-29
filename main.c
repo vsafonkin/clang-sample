@@ -61,6 +61,13 @@ int main(void)
     int d = 71;
     int ds = d << 1;
     printf("a = %d, b = %d\n", d, ds);
+
+    printline();
+
+    int arraynumbers[10];
+    for (int i = 0; i < 10; i++) {
+        printf("arraynumbers %d = %d\n", i, arraynumbers[i]);
+    }
     return EXIT_SUCCESS;
 }
 
