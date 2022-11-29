@@ -59,7 +59,7 @@ int main(void)
 
     int d = 127;
     int ds = 127 << 1;
-    printf("a = %d, b = %d\n", a, b);
+    printf("a = %d, b = %d\n", d, ds);
     return EXIT_SUCCESS;
 }
 
