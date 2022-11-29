@@ -31,7 +31,7 @@ void printline(void);
 int main(void)
 {
     sayhello();
-    printf("Magic const: %d", MAGIC);
+    printf("Magic const: %d\n", MAGIC);
     int a = 17;
     int b = 31;
     int c = 5;
