@@ -48,7 +48,8 @@ int main(void)
 
     struct samplestruct test;
     test.intarray[0] = 123;
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 5; i++)
+    {
         printf("test: %d\n", test.intarray[i]);
     }
     printline();
