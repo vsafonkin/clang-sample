@@ -25,12 +25,13 @@ struct samplestruct
 void testswap(int *, int *);
 void printpointer(int);
 void setarray(int);
-void sayhello(void);
+void sayhello(char[]);
 void printline(void);
 
 int main(void)
 {
-    sayhello();
+    char user[] = "USER";
+    sayhello(user);
     printf("Magic const: %d\n", MAGIC);
     int a = 17;
     int b = 31;
@@ -68,12 +69,16 @@ int main(void)
     for (int i = 0; i < 10; i++) {
         printf("arraynumbers %d = %d\n", i, arraynumbers[i]);
     }
+
+    char vasya[] = "Vasya";
+    sayhello(vasya);
+    sayhello("test");
     return EXIT_SUCCESS;
 }
 
-void sayhello(void)
+void sayhello(char str[])
 {
-    printf("hello!\n");
+    printf("hello, %s!\n", str);
 }
 
 void printline(void)
