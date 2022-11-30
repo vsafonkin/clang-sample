@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <limits.h>
+#include "helpers.h"
 
 const int MAGIC = 123;
 
@@ -23,7 +24,6 @@ struct samplestruct
 };
 
 void testswap(int *, int *);
-void printpointer(int);
 void setarray(int);
 void sayhello(char[]);
 void printline(void);
@@ -40,7 +40,6 @@ int main(void)
     printf("a = %d, b = %d\n", a, b);
     testswap(&a, &b);
     printf("a = %d, b = %d\n", a, b);
-    printpointer(a);
     printline();
     printf("Day: %d\n", sun);
     printline();
@@ -73,6 +72,12 @@ int main(void)
     char vasya[] = "Vasya";
     sayhello(vasya);
     sayhello("test");
+    printline();
+    int e = 345;
+    int f = 678;
+    printf("e = %d, f = %d\n", e, f);
+    myswap(&e, &f);
+    printf("e = %d, f = %d\n", e, f);
     return EXIT_SUCCESS;
 }
 
@@ -84,13 +89,6 @@ void sayhello(char str[])
 void printline(void)
 {
     printf("-----------------\n");
-}
-
-void printpointer(int a)
-{
-    int *pointer = &a;
-    int test = *pointer;
-    printf("pointer = %X\n", pointer);
 }
 
 void testswap(int *a, int *b)

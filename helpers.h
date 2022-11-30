@@ -1,3 +1,1 @@
-#include <stdio.h>
-
-void swap(int *, int *);
+void myswap(int *, int *);

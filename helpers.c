@@ -1,6 +1,7 @@
+#include <stdio.h>
 #include "helpers.h"
 
-void swap(int *a, int *b) {
+void myswap(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
