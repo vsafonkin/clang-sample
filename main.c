@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <stdint.h>
 #include <limits.h>
+#include <math.h>
 #include "helpers.h"
 
 const int MAGIC = 123;
