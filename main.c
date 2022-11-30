@@ -85,11 +85,11 @@ int main(void)
     printf("e = %d, f = %d\n", e, f);
     myswap(&e, &f);
     printf("e = %d, f = %d\n", e, f);
-    return EXIT_SUCCESS;
     if (1 > 0)
     BEGIN_BLOCK
     printf("block identifiers");
     END_BLOCK
+    return EXIT_SUCCESS;
 }
 
 void sayhello(char str[])
