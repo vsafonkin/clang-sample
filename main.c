@@ -8,6 +8,9 @@
 #include <math.h>
 #include "helpers.h"
 
+#define BEGIN_BLOCK {
+#define END_BLOCK }
+
 const int MAGIC = 123;
 
 enum day
@@ -83,6 +86,10 @@ int main(void)
     myswap(&e, &f);
     printf("e = %d, f = %d\n", e, f);
     return EXIT_SUCCESS;
+    if (1 > 0)
+    BEGIN_BLOCK
+    printf("block identifiers");
+    END_BLOCK
 }
 
 void sayhello(char str[])
