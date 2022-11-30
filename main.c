@@ -10,6 +10,7 @@
 
 #define BEGIN_BLOCK {
 #define END_BLOCK }
+#define SAY_GOODBYE printf("Goodbye!\n");
 
 const int MAGIC = 123;
 
@@ -89,6 +90,7 @@ int main(void)
     BEGIN_BLOCK
     printf("block identifiers\n");
     END_BLOCK
+    SAY_GOODBYE
     return EXIT_SUCCESS;
 }
 
