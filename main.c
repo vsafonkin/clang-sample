@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <stdint.h>
+#include <string.h>
 #include <time.h>
 #include <limits.h>
 #include <math.h>
