@@ -87,7 +87,7 @@ int main(void)
     printf("e = %d, f = %d\n", e, f);
     if (1 > 0)
     BEGIN_BLOCK
-    printf("block identifiers");
+    printf("block identifiers\n");
     END_BLOCK
     return EXIT_SUCCESS;
 }
