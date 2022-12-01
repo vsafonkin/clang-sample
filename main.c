@@ -10,6 +10,7 @@
 
 #define BEGIN_BLOCK {
 #define END_BLOCK }
+#define SAY_HELLO printf("Hello!\n");
 #define SAY_GOODBYE printf("Goodbye!\n");
 
 const int MAGIC = 123;
@@ -38,6 +39,7 @@ void printline(void);
 
 int main(void)
 {
+    SAY_HELLO;
     char user[] = "USER";
     sayhello(user);
     printf("Magic const: %d\n", MAGIC);
