@@ -103,7 +103,7 @@ void sayhello(char str[])
 
 void printline(void)
 {
-    printf("-----------------\n");
+    printf("-----\n");
 }
 
 void testswap(int *a, int *b)
