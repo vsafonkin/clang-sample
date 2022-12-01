@@ -89,10 +89,10 @@ int main(void)
     myswap(&e, &f);
     printf("e = %d, f = %d\n", e, f);
     if (1 > 0)
-    BEGIN_BLOCK
+    BEGIN_BLOCK;
     printf("block identifiers\n");
-    END_BLOCK
-    SAY_GOODBYE
+    END_BLOCK;
+    SAY_GOODBYE;
     return EXIT_SUCCESS;
 }
 
