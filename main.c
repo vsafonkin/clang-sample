@@ -75,7 +75,8 @@ int main(void)
     printline();
 
     int arraynumbers[10];
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++)
+    {
         printf("arraynumbers %d = %d\n", i, arraynumbers[i]);
     }
 
@@ -89,7 +90,7 @@ int main(void)
     myswap(&e, &f);
     printf("e = %d, f = %d\n", e, f);
     if (1 > 0)
-    BEGIN_BLOCK;
+        BEGIN_BLOCK;
     printf("block identifiers\n");
     END_BLOCK;
     SAY_GOODBYE;
