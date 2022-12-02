@@ -94,6 +94,8 @@ int main(void)
     printf("block identifiers\n");
     END_BLOCK;
     SAY_GOODBYE;
+    SAY_GOODBYE;
+    SAY_GOODBYE;
     printline();
     return EXIT_SUCCESS;
 }
