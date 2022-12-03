@@ -95,7 +95,6 @@ int main(void)
     END_BLOCK;
     SAY_GOODBYE;
     SAY_GOODBYE;
-    SAY_GOODBYE;
     printline();
     return EXIT_SUCCESS;
 }
