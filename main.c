@@ -36,6 +36,7 @@ void testswap(int *, int *);
 void setarray(int);
 void sayhello(char[]);
 void printline(void);
+void run(void);
 
 int main(void)
 {
@@ -125,4 +126,8 @@ void setarray(int n)
         array[i] = i * 10;
         printf("array[%d] = %d\n", i, array[i]);
     }
+}
+
+void run(void) {
+    printf("run");
 }
