@@ -128,6 +128,7 @@ void setarray(int n)
     }
 }
 
-void run(void) {
+void run(void)
+{
     printf("run");
 }
