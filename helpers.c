@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "helpers.h"
 
-void myswap(int *a, int *b) {
+void myswap(int *a, int *b)
+{
     int temp = *a;
     *a = *b;
     *b = temp;
@@ -9,6 +10,7 @@ void myswap(int *a, int *b) {
     return;
 }
 
-int getnumber() {
+int getnumber()
+{
     return 123;
 }
