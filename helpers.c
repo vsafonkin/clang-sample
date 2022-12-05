@@ -8,3 +8,7 @@ void myswap(int *a, int *b) {
     printf("swap: a = %d, b = %d\n", *a, *b);
     return;
 }
+
+int getnumber() {
+    return 123;
+}
