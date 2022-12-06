@@ -97,7 +97,7 @@ int main(void)
     END_BLOCK;
     SAY_GOODBYE;
     printline();
-    printline();
+    FOR_10 printf("test");
     return EXIT_SUCCESS;
 }
 
