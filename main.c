@@ -16,8 +16,7 @@
     for (int i = 0; i < 10; i++) \
         ;
 #define FOR(n)                  \
-    for (int i = 0; i < n; i++) \
-        ;
+    for (int i = 0; i < n; i++) { printf("gogogo"); }
 
 const int MAGIC = 123;
 
