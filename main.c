@@ -12,7 +12,8 @@
 #define END_BLOCK }
 #define SAY_HELLO printf("Hello!\n");
 #define SAY_GOODBYE printf("Goodbye!\n");
-#define FOR_10 for (int i = 0; i < 10; i++)
+#define FOR_10 for (int i = 0; i < 10; i++);
+#define FOR(n) for (int i = 0; i < n; i++);
 
 const int MAGIC = 123;
 
@@ -100,7 +101,11 @@ int main(void)
     FOR_10
     {
         printf("test\n");
-        printf("-----\n");
+        printf("*****\n");
+    }
+    printline();
+    FOR(5) {
+        printf("define macros\n");
     }
     return EXIT_SUCCESS;
 }
