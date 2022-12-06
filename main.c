@@ -107,6 +107,9 @@ int main(void)
     FOR(5)
     {
         printf("define macros\n");
+        FOR(3) {
+            printf(">>>\n");
+        }
     }
     return EXIT_SUCCESS;
 }
