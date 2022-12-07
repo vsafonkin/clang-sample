@@ -113,6 +113,7 @@ int main(void)
         }
     }
     printline();
+    run();
     return EXIT_SUCCESS;
 }
 
