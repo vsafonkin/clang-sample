@@ -112,6 +112,7 @@ int main(void)
             printf(">>>\n");
         }
     }
+    printline();
     return EXIT_SUCCESS;
 }
 
