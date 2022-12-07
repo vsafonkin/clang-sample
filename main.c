@@ -114,6 +114,7 @@ int main(void)
     }
     printline();
     run();
+    printline();
     return EXIT_SUCCESS;
 }
 
