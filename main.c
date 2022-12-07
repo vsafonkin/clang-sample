@@ -112,9 +112,6 @@ int main(void)
             printf(">>>\n");
         }
     }
-    printline();
-    run();
-    printline();
     return EXIT_SUCCESS;
 }
 
