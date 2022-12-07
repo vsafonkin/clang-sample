@@ -148,5 +148,5 @@ void setarray(int n)
 
 void run(void)
 {
-    printf("run");
+    printf("run...\n");
 }
