@@ -103,7 +103,6 @@ int main(void)
         printf("test\n");
         printf("*****\n");
     }
-    printline();
     FOR(5)
     {
         printf("define macros\n");
