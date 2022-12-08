@@ -54,8 +54,6 @@ int main(void)
     testswap(&a, &b);
     printf("a = %d, b = %d\n", a, b);
     printline();
-    printf("Day: %d\n", sun);
-    printline();
     setarray(10);
     printline();
 
