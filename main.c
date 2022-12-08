@@ -97,7 +97,6 @@ int main(void)
     printf("block identifiers\n");
     END_BLOCK;
     SAY_GOODBYE;
-    printline();
     FOR(5)
     {
         printf("define macros\n");
