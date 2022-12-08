@@ -66,7 +66,6 @@ int main(void)
         printf("test: %d\n", test.intarray[i]);
     }
     printline();
-    printf("INT_MIN = %d\n", INT_MIN);
     printf("sizeof b: %lu\n", sizeof(b));
 
     int d = 71;
