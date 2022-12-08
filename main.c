@@ -69,7 +69,6 @@ int main(void)
     printf("INT_MIN = %d\n", INT_MIN);
     printf("INT_MAX = %d\n", INT_MAX);
     printf("sizeof b: %lu\n", sizeof(b));
-    printline();
 
     int d = 71;
     int ds = d << 1;
