@@ -43,7 +43,6 @@ int main(void)
     SAY_HELLO;
     char user[] = "USER";
     sayhello(user);
-    printf("Magic const: %d\n", MAGIC);
     int a = 17;
     int b = 31;
     int c = 5;
