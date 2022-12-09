@@ -78,7 +78,6 @@ int main(void)
 
     char vasya[] = "Vasya";
     sayhello(vasya);
-    sayhello("test");
     printline();
     int e = 345;
     int f = 678;
