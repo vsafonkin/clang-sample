@@ -123,8 +123,3 @@ void setarray(int n)
         printf("array[%d] = %d\n", i, array[i]);
     }
 }
-
-void run(void)
-{
-    printf("run...\n");
-}
