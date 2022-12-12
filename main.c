@@ -38,6 +38,7 @@ int main(void)
     SAY_HELLO;
     char user[] = "USER";
     sayhello(user);
+
     int a = 17;
     int b = 31;
     int c = 5;
