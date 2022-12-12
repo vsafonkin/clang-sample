@@ -70,7 +70,6 @@ int main(void)
         printf("arraynumbers %d = %d\n", i, arraynumbers[i]);
     }
 
-    char vasya[] = "Vasya";
     printline();
     int e = 345;
     int f = 678;
