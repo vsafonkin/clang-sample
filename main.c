@@ -80,7 +80,6 @@ int main(void)
     printf("e = %d, f = %d\n", e, f);
     myswap(&e, &f);
     printf("e = %d, f = %d\n", e, f);
-    SAY_GOODBYE;
     FOR(5)
     {
         printf("define macros\n");
