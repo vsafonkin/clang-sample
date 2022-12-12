@@ -71,6 +71,7 @@ int main(void)
     }
 
     printline();
+
     int e = 345;
     int f = 678;
     printf("e = %d, f = %d\n", e, f);
