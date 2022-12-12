@@ -36,7 +36,6 @@ void testswap(int *, int *);
 void setarray(int);
 void sayhello(char[]);
 void printline(void);
-void run(void);
 
 int main(void)
 {
