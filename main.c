@@ -55,8 +55,8 @@ int main(void)
     {
         printf("test: %d\n", test.intarray[i]);
     }
+
     printline();
-    printf("sizeof b: %lu\n", sizeof(b));
 
     int d = 71;
     int ds = d << 1;
