@@ -60,7 +60,7 @@ int main(void)
 
     int d = 71;
     int ds = d << 1;
-    printf("a = %d, b = %d\n", d, ds);
+    printf("%d << 1 = %d\n", d, ds);
 
     printline();
 
