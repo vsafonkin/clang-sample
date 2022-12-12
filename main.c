@@ -47,6 +47,7 @@ int main(void)
     printf("a = %d, b = %d\n", a, b);
     printline();
     setarray(10);
+
     printline();
 
     struct samplestruct test;
