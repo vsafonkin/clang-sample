@@ -45,7 +45,7 @@ int main(void)
     testswap(&a, &b);
     printf("a = %d, b = %d\n", a, b);
     printline();
-    setarray(5);
+    setarray(20);
 
     printline();
 
