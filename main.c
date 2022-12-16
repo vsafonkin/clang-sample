@@ -77,10 +77,10 @@ int main(void)
     printf("e = %d, f = %d\n", e, f);
     myswap(&e, &f);
     printf("e = %d, f = %d\n", e, f);
-    FOR(10)
+    FOR(3)
     {
         printf("define macros\n");
-        FOR(3)
+        FOR(2)
         {
             printf(">>>\n");
         }
