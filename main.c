@@ -28,6 +28,12 @@ struct samplestruct
     char chararray[10];
 };
 
+struct user {
+    char name[100];
+    char surname[100];
+    int age;
+};
+
 void testswap(int *, int *);
 void setarray(int);
 void sayhello(char[]);
