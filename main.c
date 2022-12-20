@@ -36,7 +36,7 @@ void printline(void);
 int main(void)
 {
     SAY_HELLO;
-    char user[] = "USER";
+    char user[] = "Vasya";
     sayhello(user);
 
     int a = 17;
