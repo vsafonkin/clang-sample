@@ -6,7 +6,7 @@
 #include <time.h>
 #include <limits.h>
 #include <math.h>
-#include "helpers.h"
+#include "helpers/helpers.h"
 
 #define SAY_HELLO printf("Hello!\n");
 #define FOR(n) for (int i = 0; i < n; i++)
