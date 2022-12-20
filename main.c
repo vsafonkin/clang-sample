@@ -46,6 +46,7 @@ int main(void)
     sayhello(user);
 
     struct user vasya;
+    char testline[100] = "testline";
 
     int a = 17;
     int b = 31;
