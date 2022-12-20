@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "helpers/helpers.h"
 
 void myswap(int *a, int *b)
 {
