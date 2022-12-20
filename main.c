@@ -50,6 +50,7 @@ int main(void)
     printline();
 
     struct samplestruct test;
+
     test.intarray[0] = 123;
     for (int i = 0; i < 5; i++)
     {
