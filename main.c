@@ -45,6 +45,8 @@ int main(void)
     char user[] = "Vasya";
     sayhello(user);
 
+    struct user vasya;
+
     int a = 17;
     int b = 31;
     printf("a = %d, b = %d\n", a, b);
