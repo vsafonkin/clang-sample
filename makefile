@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := build
 
 build:
-	gcc -o bin/sample main.c
+	gcc -g -o bin/sample main.c
 	bin/sample
 .PHONY:build
 
