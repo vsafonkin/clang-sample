@@ -1,10 +1,12 @@
 .DEFAULT_GOAL := build
 
 build:
-	gcc -g -o bin/sample main.c
-	bin/sample
-.PHONY:build
+	gcc -g -o ./bin/sample main.c
+	gcc -g -O0 -o ./bin/debug main.c
 
-debug:
-	gcc -g -O0 -o bin/debug main.c
-.PHONY:debug
+run:
+	./bin/sample
+
+clean:
+	rm ./bin/sample ./bin/debug
+
