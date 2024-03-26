@@ -1,4 +1,4 @@
-.DEFAULT_GOAL := build
+all: build
 
 build:
 	gcc -g -o ./bin/sample main.c
