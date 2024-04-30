@@ -1,12 +1,32 @@
+#include <stdbool.h>
 #include <stdio.h>
+#include <stdlib.h>
 
+#define line printf("-----\n");
+
+int counter();
 
 int main(void) {
-  int a = 123;
-  int b = 231;
-  int c = 321;
-  int sum = a + b + c;
-  printf("%d\n", sum);
-  return 0;
+  short int si;
+  printf("short int value: %d, size: %lu\n", si, sizeof(si));
+  line;
+  int d;
+  printf("int value: %d, size: %lu\n", d, sizeof(d));
+  line;
+  long int li;
+  printf("long int value: %ld, size: %lu\n", li, sizeof(li));
+  line;
+  bool bb;
+  printf("bool value: %b, size: %lu\n", bb, sizeof(bb));
+  line;
+  char ch = 'a';
+  printf("char value: %c, size: %lu\n", ch, sizeof(ch));
+  return EXIT_SUCCESS;
 }
 
+int counter() {
+  static int counter = 0;
+  counter++;
+  printf("counter: %d\n", counter);
+  return counter;
+}
