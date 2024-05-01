@@ -16,9 +16,6 @@ int main(void) {
   long int li;
   printf("long int value: %ld, size: %lu\n", li, sizeof(li));
   line;
-  bool bb;
-  printf("bool value: %b, size: %lu\n", bb, sizeof(bb));
-  line;
   char ch = 'a';
   printf("char value: %c, size: %lu\n", ch, sizeof(ch));
   return EXIT_SUCCESS;
