@@ -13,4 +13,3 @@ run:
 
 clean:
 	rm -rf ./bin/*
-
