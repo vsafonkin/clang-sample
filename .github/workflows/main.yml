@@ -19,7 +19,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Build sample
-      run: gcc main.c -o main -v
+      run: make
 
     - name: Run sample
-      run: ./main
+      run: make run
