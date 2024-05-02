@@ -16,7 +16,7 @@ jobs:
     name: Build and run C/C++ ${{ matrix.os }}
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Build sample
       run: make
