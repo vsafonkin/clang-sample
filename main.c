@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void)
 {
@@ -12,7 +11,7 @@ int main(void)
   int nums[4] = {123, 456, 789, 444};
   printf("%p\n", nums);
   printf("%p\n", nums + 1);
-  printf("%d\n", *(&nums + 1) - nums);
+  printf("%lu\n", *(&nums + 1) - nums);
   printf("============\n");
   printf("nums length: %lu\n", sizeof(nums) / sizeof(int));
   printf("nums pointer: %p\n", &nums);
