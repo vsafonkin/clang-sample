@@ -1,8 +1,12 @@
-#include <stdbool.h>
 #include <stdio.h>
-#include <stdlib.h>
 
+int main(void)
+{
+  printf("============\n");
+  int n = 123456789;
+  short k = (short)n;
 
-int main(void) {
-  return EXIT_SUCCESS;
+  printf("%d %d\n", n, k);
+
+  return 0;
 }
