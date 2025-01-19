@@ -9,6 +9,9 @@ int main(void)
   printf("%p\n", nums + 1);
   printf("%p\n", &nums);
   printf("%p\n", &nums + 1);
+  printf("============\n");
 
+  int const *p = nums + 1;
+  printf("%d\n", *p);
   return 0;
 }
