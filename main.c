@@ -11,7 +11,7 @@ int main(void)
   printf("%p\n", &nums + 1);
   printf("============\n");
 
-  int const *p = nums + 1;
-  printf("%d\n", *p);
+  size_t const size = sizeof(nums);
+  printf("%lu\n", size);
   return 0;
 }
