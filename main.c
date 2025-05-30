@@ -1,15 +1,10 @@
 #include <stdio.h>
-#include <string.h>
 
-int main(void)
-{
-  printf("============\n");
+int main(void) {
+    double a = 0.2;
+    double b = 0.1;
+    double result = a + b;
+    printf("result: %f\n", result);
 
-  char *name = "Alice";
-  printf("%s\n", name);
-
-  int len = strlen(name);
-  printf("%d\n", len);
-
-  return 0;
+    return 0;
 }
