@@ -3,4 +3,5 @@ bin
 .vscode
 .idea
 *.o
-hello
+hello*
+.gdb_history

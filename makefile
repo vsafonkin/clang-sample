@@ -16,6 +16,6 @@ clean:
 	rm -rf ./bin/*
 
 nasm:
-	nasm -f elf ./hello.asm
-	ld -m elf_i386 -s -o hello hello.o
+	nasm -f elf -g ./hello.asm
+	ld -m elf_i386 -o hello hello.o
 	./hello
