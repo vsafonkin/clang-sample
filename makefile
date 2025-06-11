@@ -1,8 +1,8 @@
 all: build
 
 build:
-	gcc -O3 -o ./bin/sample ./main.c
-	gcc -g3 -O0 -o ./bin/debug ./main.c
+	gcc -O3 -o ./bin/sample ./main.c -lm
+	gcc -g3 -O0 -o ./bin/debug ./main.c -lm
 
 bclang:
 	clang -O3 -o ./bin/sample ./main.c
