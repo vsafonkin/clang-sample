@@ -1,14 +1,8 @@
 #include <stdio.h>
 
-int main(void)
-{
-  unsigned char c;
-  c = 254;
-  c = c + 5;
-  printf("decimal c: %d\n", c);
+int main(void) {
+    const int n = 123;
+    printf("n: %d\n", n);
 
-  long double n;
-  printf("size: %lu\n", sizeof(n));
-
-  return 0;
+    return 0;
 }
